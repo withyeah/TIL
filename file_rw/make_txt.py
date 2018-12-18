@@ -1,8 +1,18 @@
-f = open("test.txt", "w", encoding = "utf-8")
-for i in range(1, 6):
-    f.write(f"{i}"+"번째 줄입니다.\t")
-f.close()
+# f = open("test.txt", "w", encoding = "utf-8")
+# for i in range(1, 6):
+#     f.write(f"{i}"+"번째 줄입니다.\t")
+# f.close()
 
-with open("test.txt", "w", encoding = "utf-8") as f:
-    for i in range(1, 6):
-        f.writelines(f"{i}" + "번째 줄입니다.\t")
+# with open("test.txt", "w", encoding = "utf-8") as f:
+#     for i in range(1, 6):
+#         f.writelines(f"{i}" + "번째 줄입니다.\t")
+
+
+# with open("new.txt", "r", encoding='utf-8') as f:
+#     line = f.readline()
+#     print(line.strip())
+
+with open("new.txt", "r", encoding='utf-8') as f:
+    lines = f.readlines()
+    for i in lines:
+        print(i.strip())

@@ -221,9 +221,11 @@ id="uniqe" class="ssafy daegeon h-h"
 
 ### Flask
 
-
+> http://flask.pocoo.org/
 
 > c9.io/login
+>
+> > https://github.com/pyenv/pyenv#installation
 
 
 
@@ -346,11 +348,17 @@ def html_name(name):
 
 
 
+---
 
 
 
+### fontawesome
+
+https://fontawesome.com/
 
 fontawesome
 
 class명으로 icon넣기
+
+> html에서 class명 수정
 

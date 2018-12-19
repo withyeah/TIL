@@ -1,0 +1,39 @@
+* {
+    font-family: 'Song Myung', serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-large {
+    font-size: 200%;
+}
+
+.text-red {
+    color: red;
+}
+
+.text-blue {
+    color: blue;
+}
+/* class selector */
+.container {
+    background: violet;
+}
+/* 후손 selector */
+div p {
+    color: green;
+}
+/* 자식 selector */
+div > p {
+    color: hotpink;
+}
+/* 형제 selector : 바로 위아래로 붙어있어야 작동 */
+p + span {
+    color: purple;
+}
+/* 물결 형제 selector : 동위 선상의 p부터 span까지 사이태그도 적용 */
+p ~ span {
+    color: cadetblue;
+}

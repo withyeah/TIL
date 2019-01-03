@@ -1,4 +1,4 @@
-## jupyter
+## jupyter 20190102
 
 #### 단축키
 
@@ -17,4 +17,8 @@
 > b : 위에 new 셀
 
 - 메뉴바 - kernel - Restart & Clear Output 하면 print된 것 사라짐(push할 때 깔끔하게)
+
+
+
+## jupyter 20190103
 

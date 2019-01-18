@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="02.css">
+</head>
+<body>
+    <p>빨간색</p>
+    <h1>TAG 선택자</h1>
+    <h2 class="pink">클래스 선택자</h2>
+    <h3 id="green">아이디 선택자</h3>
+    <!-- id & class 우선 순위 : id -->
+    <h3 id="green" class="pink">아이디와 클래스</h3>
+    <!-- tag & class 우선 순위 : class -->
+    <h2 class="pink">클래스와 태그 선택자</h2>
+    <hr>
+    <p><span class="blue">파란색</span>과 <span id="green">초록색</span></p>
+    <!-- span태그와 div 태그 :
+    둘 다 의미는 없지만 마크업을 해야 css를 적용시킬 수 있기 때문에 사용함 
+    컴퓨터니까 특정한 곳을 지정해야 함
+    따라서 선택자가 필요하고 선택자를 잡기 위해서 마크업이 필요-->
+    <p class="bold">선택자 볼드체</p>
+    <p><strong>스트롱 볼드체</strong></p>
+    <p><b>볼드체</b></p>
+    <!-- 달라지는 점이 뭘까?
+    tag를 통해 특정 부분을 강조 혹은 볼드체라는 것을 명시!
+    따라서 단순 볼드체를 하기 위해 strong 태그를 남발하는 경우에는 
+    브라우저가 모든 볼드체를 강조하게 됨
+    > strong 태그 남발하면 안됨! -->
+</body>
+</html>

@@ -1,0 +1,50 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.border-box {
+    box-sizing: border-box;
+}
+
+.margin-50 {
+    margin: 50px 50px 50px 50px;
+    /* top right bottom left */
+}
+
+.margin-top-100 {
+    margin-top: 100px;
+}
+
+.margin-3 {
+    margin: 10px 20px 30px;
+}
+
+.border {
+    border: 5px black dashed;
+    border-style: dashed;
+    border-bottom-style: double;
+    border-top-style: solid;
+    border-left-style: inset;
+    border-bottom-color: aqua;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: darkgoldenrod;
+    border-radius: 50%;
+}
+
+.rugby {
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    border-radius: 10% 75%;
+    opacity: 0.8;
+}

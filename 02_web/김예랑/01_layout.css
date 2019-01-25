@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Song+Myung&subset=korean');
+
+body {
+    height: 10000px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end
+}
+
+header {
+    height: 350px;
+    background-image: url(https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    width: 330px;
+    font-family: 'Song Myung', serif;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: darkgrey;
+    line-height: 50px;
+    font-family: 'Nanum Myeongjo', serif;
+}

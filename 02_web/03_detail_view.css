@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Do+Hyeon|Gugi&subset=korean');
+
+body {
+    height: 10000px;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+header {
+    height: 350px;
+    background-image: url(https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten
+}
+
+/* .hover-opacity:hover {
+    background-blend-mode: normal;
+} */
+
+h2 {
+    width: 310px;
+    font-family: 'Do Hyeon', sans-serif;
+    z-index: 99999;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    background-color: darkgrey;
+    line-height: 50px;
+    font-family: 'Gugi', cursive;
+}
+
+h3 {
+    font-family: 'Do Hyeon', sans-serif;
+    margin-top: 3rem;
+    margin-bottom: 0.1rem;
+}
+
+.orangehr {
+    width: 70px;
+    border: solid 2px darkorange;
+    margin-top : 0rem;
+    margin-bottom: 3rem;
+}

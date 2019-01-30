@@ -6,24 +6,23 @@ body {
 
 .navbar-collapse {
     justify-content: flex-end;
+    z-index: 999;
 }
 
 header {
     height: 350px;
-    background-image: url(https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
     background-size: cover;
     background-position: center;
-    background-blend-mode: lighten
 }
 
 .hover-opacity:hover {
-    background-blend-mode: normal;
+    background-image: url(https://images.pexels.com/photos/390089/film-movie-motion-picture-390089.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 }
 
 h2 {
     width: 310px;
     font-family: 'Do Hyeon', sans-serif;
-    z-index: 99999;
 }
 
 footer {
@@ -47,4 +46,12 @@ h3 {
     border: solid 2px darkorange;
     margin-top : 0rem;
     margin-bottom: 3rem;
+}
+
+.card-img-top:hover {
+    cursor: pointer;
+}
+
+.card-title {
+    font-size: 1.8vw;
 }
